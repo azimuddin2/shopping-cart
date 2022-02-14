@@ -1,5 +1,4 @@
 function updateProductNumber(productId, isIncreasing, priceId, price ) {
-
     const productInput = document.getElementById(productId);
     const productNumberText = productInput.value;
     let productNumberValue = parseInt(productNumberText);
@@ -26,7 +25,6 @@ function getInputValue(productId){
 }
 
 function calculateTotal() {
-
     const phoneTotal = getInputValue('phone-number') * 1219;
     const caseTotal = getInputValue('case-number') * 59;
     const subTotal = phoneTotal + caseTotal;
